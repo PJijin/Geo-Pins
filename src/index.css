@@ -1,13 +1,89 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+		'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.flex {
+	display: flex;
+}
+
+.grow {
+	flex-grow: 1;
+}
+
+.sidebar {
+	width: 30%;
+	padding: 1rem;
+	color: #fff;
+	height: 100vh;
+	background: #19212a;
+}
+
+.sidebar h4 {
+	color: #babdc0;
+}
+
+form {
+	margin: 20px;
+}
+
+input {
+	color: #333;
+	border: 0;
+	padding: 0.5rem;
+	width: 100%;
+	margin: 5px 0;
+	-webkit-box-shadow: none;
+	outline: -webkit-focus-ring-color auto 0px;
+	border-radius: 3px;
+}
+
+.right {
+	float: right;
+}
+
+.sidebar ul {
+	padding: 0;
+	overflow-x: scroll;
+	height: 400px;
+}
+
+.sidebar li img {
+	border-radius: 4px 0 0 4px;
+	height: 98px;
+}
+
+.sidebar li {
+	margin-top: 5px;
+	list-style: none;
+}
+
+.sidebar li .MuiIconButton-root {
+	color: #fff;
+}
+
+.card-style {
+	font-size: 12px;
+	background: #363d42;
+	border-radius: 0px 4px 4px 0;
+	padding: 0 1rem;
+}
+
+.card-style h4 {
+	padding-top: 10px;
+	margin: 0;
+	font-size: 14px;
+}
+
+.text-muted {
+	color: #ccc;
+	font-size: 13px;
+	padding-left: 28px;
 }
