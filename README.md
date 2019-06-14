@@ -1,6 +1,6 @@
 ## GEO-Pins
 
-Mark location on google maps. The app is bulit using React hooks.
+Mark location on google maps. The app is built using React hooks.
 
 [![Geo Pins](https://github.com/PJijin/GEO-Pins/blob/master/preview.gif?raw=true 'Geo Pins')]()
 
